@@ -5,7 +5,7 @@ from random import seed
 from random import random
 
 message_count = 500 #total number of messages to send, accross all batches
-channel_name = 'iotanium-datavis'
+channel_name = 'iotanium'
 messages_per_batch = 10
 
 client = boto3.client('iotanalytics')
