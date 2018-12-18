@@ -4,7 +4,7 @@ from time import time
 from random import seed
 from random import random
 
-message_count = 500 #total number of messages to send, accross all batches
+message_count = 10000 #total number of messages to send, accross all batches
 channel_name = 'iotanium'
 messages_per_batch = 10
 
